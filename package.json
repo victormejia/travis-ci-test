@@ -1,0 +1,23 @@
+{
+  "name": "mongodb-express-travis",
+  "version": "1.0.0",
+  "description": "MongoDB-Backend Express API with CI",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "start": "node ."
+  },
+  "keywords": [],
+  "author": "Tim Davis",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "1.15.2",
+    "express": "4.14.0",
+    "mongodb": "2.2.10"
+  },
+  "devDependencies": {
+    "chai": "3.5.0",
+    "mocha": "3.1.1",
+    "request": "2.75.0"
+  }
+}
